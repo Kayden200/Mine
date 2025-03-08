@@ -1,27 +1,20 @@
-#========SEND======@ZERO_CYBER_TEM
-#TG====== https://t.me/ZERO_CYBER_TEM
-#=======____FREE______=======
-#========______GIVE========== 😋
 import os
 import re
-try:
-    import requests
-except ModuleNotFoundError:
-    os.system('pip install requests')
+import requests
 import time
-from os import system as none
+
 def print_logo():
     logo = '''\033[91m
 
-  
-       
-     
+      
+           
+         
 
-      \033[1;37m   Davloper : ZERO TEM 😑      
-    
-         \033[1;37m        Tool : Facebook LIKE🤩                    
+          \033[1;37m   Developer : ZERO TEM 😑      
 
-   \033[1;37m '''
+             \033[1;37m        Tool : Facebook LIKE🤩                    
+
+       \033[1;37m '''
     print(logo)
 
 def get_token_from_cookie(cookie):
@@ -49,9 +42,7 @@ def get_token_from_cookie(cookie):
         return None
 
 def main():
-    os.system(" xdg-open https://t.me/KGF_TERMUX_TEAM ")
-    os.system(" xdg-open https://t.me/KGF_TERMUX_TEAM ")
-    os.system(" xdg-open https://t.me/KGF_TERMUX_TEAM ")
+    os.system("termux-open-url https://t.me/KGF_TERMUX_TEAM")
     os.system('clear')
     print_logo()
     cookie = input('\n<\\> ENTER YOUR COOKIE : ')
