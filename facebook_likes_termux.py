@@ -10,7 +10,7 @@ def print_logo():
            
          
 
-          \033[1;37m   Developer : ZERO TEM 😑      
+          \033[1;37m   Developer : Ryle Cohner 😑      
 
              \033[1;37m        Tool : Facebook LIKE🤩                    
 
@@ -42,7 +42,7 @@ def get_token_from_cookie(cookie):
         return None
 
 def main():
-    os.system("termux-open-url https://t.me/KGF_TERMUX_TEAM")
+    os.system("termux-open-url https://www.facebook.com/Blackscreew3")
     os.system('clear')
     print_logo()
     cookie = input('\n<\\> ENTER YOUR COOKIE : ')
